@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+body{
+    background-color: #ede8f5;
+    font-family: sans-serif;
+    justify-content: center;
+}
+
+/**header**/
+
+header .logo{
+    display: flex;
+    justify-content:space-between;
+    background-color: darkviolet;
+    margin-bottom: 10px;
+    border-radius: 20px 1px 25px;
+}
+
+header div h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    font-style: oblique;
+    color:rgb(250, 227, 22)
+}
+
+/**introduction**/
+ section div img{
+    width: 150px;
+    height: 200px;
+    border-radius: 2px 10px 10px;
+    padding: 10px;
+    margin-inline: 550px;
+    background-color: darkviolet;
+ }
+
+.first{
+    margin-inline: 550px;
+    padding: 10px;
+    
+}
+.first h2 {
+    color: rgb(211, 197, 4);
+    font-weight: bolder;
+    font-size: xx-large;
+
+}
+
+/**description**/
+.desc{
+    display: flex;
+    justify-content: space-between;
+    background-color: darkviolet;
+    padding: 30px;
+    box-sizing: content-box;
+    border-bottom: #ede8f5;
+    margin-bottom: 20px;
+}
+.sub_desc{
+    display: flex;
+    justify-content: space-between;
+    background-color: darkviolet;
+    padding: 30px;
+    box-sizing: content-box;
+    border-bottom: #ede8f5;
+}
+
+/**services section*/
+.card{
+    display: flex;
+    margin-inline: 10px;
+    padding: 10px;
+}
+.card h3{
+    font-size: xx-large;
+    padding-bottom: 10px;
+}
+.first_d{
+    background-color: darkviolet;
+    box-shadow: 1px 1px 20px (0 0 0 /10);
+    border-radius: 10px;
+}
+.sec_d{
+    background-color: darkviolet;
+    box-shadow: 1px 1px 20px (0 0 0 /10);
+    border-radius: 10px;
+    margin-inline: 10px;
+}
+.third_d{
+    background-color: darkviolet;
+    box-shadow: 1px 1px 20px (0 0 0 /10);
+    border-radius: 10px;
+}
